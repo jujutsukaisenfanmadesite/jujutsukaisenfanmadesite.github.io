@@ -1,0 +1,557 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Serif JP', serif;
+}
+
+header {
+  background-color: #000;
+  -webkit-box-shadow: 0 0 10px 5px rgba(26, 26, 26, 0.3);
+          box-shadow: 0 0 10px 5px rgba(26, 26, 26, 0.3);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+header .navbar-brand img {
+  width: 100%;
+  max-width: 140px;
+}
+
+header .navbar-nav .nav-item {
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+header .navbar-nav .nav-item .nav-link {
+  color: #e6e6e6;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+header .navbar-nav .nav-item .nav-link:hover {
+  color: #cccccc;
+}
+
+header .fa-bars {
+  font-size: 20px;
+  color: #fff;
+}
+
+#landing_page {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(4, 70, 133, 0.7))), url("../img/bg/jjk_landing_page_bg_img.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(4, 70, 133, 0.7)), url("../img/bg/jjk_landing_page_bg_img.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#landing_page .landing_page_content {
+  padding: 20px 0 50px 0;
+}
+
+#landing_page .landing_page_content .landing_page_intro {
+  color: #fff;
+  text-align: center;
+}
+
+#landing_page .landing_page_content .landing_page_intro .landing_page_title img {
+  width: 25%;
+  max-width: 100px;
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-15px);
+            transform: translatey(-15px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-15px);
+            transform: translatey(-15px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+#landing_page .landing_page_content .landing_page_intro .landing_page_title img {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-animation: float 5s ease-in-out infinite;
+          animation: float 5s ease-in-out infinite;
+}
+
+#landing_page .landing_page_content .landing_page_intro .landing_page_title img img {
+  width: 100%;
+  height: auto;
+}
+
+#landing_page .landing_page_content .landing_page_intro .landing_page_title_description {
+  padding-top: 15px;
+}
+
+#landing_page .landing_page_content .landing_page_intro .landing_page_title_description p {
+  font-size: 16px;
+}
+
+#landing_page .landing_page_content .landing_page_intro .scrolldown span {
+  font-size: 13px;
+}
+
+#landing_page .landing_page_content .landing_page_intro .scrolldown img {
+  width: 100%;
+  max-width: 20px;
+  margin-top: 10px;
+  -webkit-filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.9));
+          filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.9));
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-10px);
+            transform: translatey(-10px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+#landing_page .landing_page_content .landing_page_intro .scrolldown img {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-animation: float 5s ease-in-out infinite;
+          animation: float 5s ease-in-out infinite;
+}
+
+#landing_page .landing_page_content .landing_page_intro .scrolldown img img {
+  width: 100%;
+  height: auto;
+}
+
+#about {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(4, 70, 133, 0.9))), url("../img/bg/jjk_about_bg_img.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(4, 70, 133, 0.9)), url("../img/bg/jjk_about_bg_img.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#about .about_content {
+  padding: 70px 0 100px 0;
+}
+
+#about .about_content .about_title h1 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+#about .about_content .about_title h1::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 120px;
+  height: 20px;
+  display: block;
+  margin-top: -15px;
+}
+
+#about .about_content .about_title hr {
+  color: #fff;
+}
+
+#about .about_content .about_title_description p {
+  color: #fff;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+#about .about_content cite {
+  font-size: 12px;
+  color: #fff;
+}
+
+#about .about_content cite a {
+  text-decoration: none;
+}
+
+#about .about_content .jjk_poster {
+  padding-top: 30px;
+}
+
+#about .about_content .jjk_poster img {
+  width: 100%;
+  -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+#author {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(4, 70, 133, 0.9))), url("../img/bg/jjk_bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(4, 70, 133, 0.9)), url("../img/bg/jjk_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#author .author_content {
+  padding: 70px 0 250px 0;
+  text-align: center;
+  color: #fff;
+}
+
+#author .author_content .author_title h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+#author .author_content .author_title h1::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 150px;
+  height: 20px;
+  display: block;
+  margin: -15px auto;
+}
+
+#author .author_content .author_title hr {
+  width: 150px;
+  margin: 30px auto;
+}
+
+#author .author_content .author_info .author_name h2 {
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+#author .author_content .author_info .author_description {
+  padding-top: 10px;
+}
+
+#author .author_content .author_info .author_description p {
+  font-size: 16px;
+}
+
+#author .author_content cite {
+  font-size: 12px;
+}
+
+#author .author_content cite a {
+  text-decoration: none;
+}
+
+#characters {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(4, 70, 133, 0.9))), url("../img/bg/jjk_bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(4, 70, 133, 0.9)), url("../img/bg/jjk_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#characters .characters_content {
+  padding: 70px 0 250px 0;
+  color: #fff;
+  text-align: center;
+}
+
+#characters .characters_content .characters_title h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+#characters .characters_content .characters_title h1::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 240px;
+  height: 20px;
+  display: block;
+  margin: -15px auto;
+}
+
+#characters .characters_content .characters_title_description {
+  padding-top: 10px;
+}
+
+#characters .characters_content .characters_title_description p {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+#characters .characters_content .characters_list {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#characters .characters_content .characters_list .character_item {
+  margin-bottom: 30px;
+}
+
+#characters .characters_content .characters_list .character_item .character_img img {
+  width: 80%;
+  max-width: 150px;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+#characters .characters_content .characters_list .character_item .character_name h2 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+#characters .characters_content .back_to_top {
+  padding-top: 30px;
+}
+
+#characters .characters_content .back_to_top .fa-arrow-circle-up {
+  color: #fff;
+}
+
+#characters .characters_content .back_to_top label {
+  font-size: 11px;
+}
+
+#watch_anime {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(4, 70, 133, 0.9))), url("../img/bg/jjk_bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(4, 70, 133, 0.9)), url("../img/bg/jjk_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#watch_anime .watch_anime_content {
+  padding: 70px 0 250px 0;
+  text-align: center;
+  color: #fff;
+}
+
+#watch_anime .watch_anime_content .watch_anime_title h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+#watch_anime .watch_anime_content .watch_anime_title h1::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 250px;
+  height: 20px;
+  display: block;
+  margin: -15px auto;
+}
+
+#watch_anime .watch_anime_content .watch_anime_title_description {
+  padding-top: 10px;
+}
+
+#watch_anime .watch_anime_content .watch_anime_title_description p {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+#watch_anime .watch_anime_content .anime_seasons {
+  color: #fff;
+}
+
+#watch_anime .watch_anime_content .anime_seasons .anime_season_title {
+  padding-top: 20px;
+}
+
+#watch_anime .watch_anime_content .anime_seasons .anime_season_title h2 {
+  text-transform: uppercase;
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+
+#watch_anime .watch_anime_content .anime_seasons .anime_season_episodes {
+  display: none;
+}
+
+#watch_anime .watch_anime_content .anime_seasons .anime_season_episodes ul {
+  list-style: none;
+  font-size: 13px;
+  padding: 0;
+}
+
+#watch_anime .watch_anime_content .anime_seasons .anime_season_episodes ul li {
+  padding-top: 10px;
+}
+
+#watch_anime .watch_anime_content .anime_seasons .anime_season_episodes ul li a {
+  text-decoration: none;
+}
+
+#watch_anime .watch_anime_content .anime_seasons .dropdown_episodes .fa-arrow-circle-down {
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#watch_anime .watch_anime_content .anime_seasons .dropdown_episodes .fa-arrow-circle-down.active {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+#read_manga_series {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(4, 70, 133, 0.9))), url("../img/bg/jjk_bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(4, 70, 133, 0.9)), url("../img/bg/jjk_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#read_manga_series .read_manga_series_content {
+  padding: 70px 0 250px 0;
+  text-align: center;
+  color: #fff;
+}
+
+#read_manga_series .read_manga_series_content .read_manga_series_title h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+#read_manga_series .read_manga_series_content .read_manga_series_title h1::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 130px;
+  height: 20px;
+  display: block;
+  margin: -15px auto;
+}
+
+#read_manga_series .read_manga_series_content .read_manga_series_title_description {
+  padding-top: 10px;
+}
+
+#read_manga_series .read_manga_series_content .read_manga_series_title_description p {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+#read_manga_series .read_manga_series_content .manga_chapters {
+  color: #fff;
+}
+
+#read_manga_series .read_manga_series_content .manga_chapters .manga_chapters_title {
+  padding-top: 20px;
+}
+
+#read_manga_series .read_manga_series_content .manga_chapters .manga_chapters_title h2 {
+  text-transform: uppercase;
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+
+#read_manga_series .read_manga_series_content .manga_chapters .manga_chapters_list {
+  display: none;
+}
+
+#read_manga_series .read_manga_series_content .manga_chapters .manga_chapters_list ul {
+  list-style: none;
+  font-size: 13px;
+  padding: 0;
+}
+
+#read_manga_series .read_manga_series_content .manga_chapters .manga_chapters_list ul li {
+  padding-top: 10px;
+}
+
+#read_manga_series .read_manga_series_content .manga_chapters .manga_chapters_list ul li a {
+  text-decoration: none;
+}
+
+#read_manga_series .read_manga_series_content .manga_chapters .dropdown_manga_chapters_list .fa-arrow-circle-down {
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#read_manga_series .read_manga_series_content .manga_chapters .dropdown_manga_chapters_list .fa-arrow-circle-down.active {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+footer {
+  background-image: url("../img/bg/footer_bg_img.png");
+  background-position: center;
+  background-size: cover;
+  margin-top: -300px;
+}
+
+footer .footer_content {
+  padding-bottom: 80px;
+  text-align: center;
+  color: #fff;
+  padding-top: 300px;
+}
+
+footer .footer_content .footer_logo img {
+  width: 100%;
+  max-width: 250px;
+}
+
+footer .footer_content .footer_copyright {
+  padding-top: 10px;
+}
+
+footer .footer_content .footer_copyright p {
+  font-size: 12px;
+}
+
+.loader {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+.loader .loader_content {
+  text-align: center;
+}
+
+.loader .loader_content .loader_logo {
+  margin-top: 250px;
+}
+
+.loader .loader_content .loader_logo img {
+  width: 100%;
+  max-width: 170px;
+}
+
+.loader .loader_content .loader_logo p {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=style.css.map */
