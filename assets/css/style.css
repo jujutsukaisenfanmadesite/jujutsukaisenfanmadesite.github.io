@@ -206,8 +206,8 @@ header .fa-bars {
 
 #about .about_content .jjk_poster img {
   width: 100%;
-  -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 #author {
